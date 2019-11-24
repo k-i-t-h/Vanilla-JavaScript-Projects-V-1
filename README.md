@@ -2,28 +2,28 @@
 Projects using Vanilla JavaScript with custom designs.
 Order of projects:
 
--Change Background Color
+-Change Background Color </br>  
 ![](rgb.gif)
 
--Change Background w/ Hex Color
+-Change Background w/ Hex Color </br>  
 ![](hex.gif)
 
--Input Message
+-Input Message </br>
 ![](message.gif)
 
--Counter
+-Counter </br>
 ![](counter.gif)
 
--Quote Generator
+-Quote Generator </br>
 ![](quote.gif)
 
--Image Slider
+-Image Slider </br>
 ![](carousel.gif)
 
--Calculator
+-Calculator </br>
 ![](calculator.gif)
 
--Clock
+-Clock </br>
 ![](clock.gif)
 
 
