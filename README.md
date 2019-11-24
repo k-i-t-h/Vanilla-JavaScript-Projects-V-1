@@ -1,5 +1,5 @@
 # Vanilla-JavaScript-Projects-V-1
-Projects using Vanilla JavaScript with custom designs. Reference video from ' Coding Addict ' https://www.youtube.com/watch?v=Kp3HGwlXwCk&amp;feature=youtu.be 
+Projects using Vanilla JavaScript with custom designs.
 Order of projects:
 
 -Change Background Color
@@ -25,3 +25,9 @@ Order of projects:
 
 -Clock
 ![](clock.gif)
+
+
+
+
+ Reference video walkthrough by ' Coding Addict ' https://www.youtube.com/watch?v=Kp3HGwlXwCk&amp;feature=youtu.be 
+ * only use this repo for practice of Vanilla JavaScript
