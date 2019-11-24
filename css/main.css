@@ -1,0 +1,305 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+}
+
+body {
+  overflow-wrap: break-word;
+  overflow-x: hidden;
+}
+main {
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  padding: 10px;
+  /* color: white; */
+  color: black;
+  text-shadow: 0px 0px 1px white;
+}
+
+.container {
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  background-color: rgb(236, 232, 232);
+  border-radius: 15px;
+  box-shadow: 0px 2px 3px black;
+  padding: 4rem 2rem;
+  margin: 4rem 2rem;
+}
+
+/* ============================================= 
+        Random Color change with Button
+ ============================================= */
+
+.btn {
+  background-color: orange;
+  color: black;
+  height: 50px;
+  padding: 10px;
+  font-weight: bolder;
+  outline: none;
+  transition: 0.2s;
+  border-radius: 10px;
+  box-shadow: 0px 3px 3px black;
+  border: none;
+  font-size: 1.5rem;
+}
+
+.btn:hover {
+  background-color: rgb(255, 166, 0);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.btn:active {
+  box-shadow: 0px 0px 5px black;
+  transform: scale(0.9);
+}
+
+/* ============================================= 
+      Random Color change with Button & Hex
+ ============================================= */
+.hex {
+  margin: 5px;
+}
+/*=============================================
+                Quote Generator
+=============================================*/
+
+#quoteBtn {
+  margin: 15px;
+}
+
+blockquote {
+  background-color: #f8f8f8;
+  border-left: 10px solid #fcdbbf;
+  margin: 1.5rem 0;
+  padding: 0.5rem;
+}
+
+#quoteAuthor {
+  border-bottom: 4px double black;
+  border-top: 4px double black;
+  background-color: orange;
+}
+
+/*=============================================
+                INPUT MESSAGE
+=============================================*/
+
+#sendBtn {
+  margin: 1rem auto;
+  display: block;
+}
+
+#messageIn {
+  padding: 15px;
+  font-size: 20px;
+  min-height: 80px;
+  min-width: 80%;
+  max-width: 80%;
+  border: 0.8px solid orange;
+  text-transform: initial;
+}
+#messageIn:focus {
+  box-shadow: 0 0 10px orange;
+}
+
+#messageOut {
+  text-transform: initial;
+  color: orange;
+  text-align: center;
+  text-shadow: 0 1px 2px darkgrey;
+}
+
+/*=============================================
+                    COUNTER
+=============================================*/
+.counter {
+  font-size: 5rem;
+  font-weight: bolder;
+  margin: 10px;
+}
+
+.btns {
+  justify-content: center;
+  display: flex;
+}
+
+#addOne,
+#resetCount,
+#minusOne {
+  margin: 15px;
+  font-size: 18px;
+}
+
+#addOne:hover,
+#minusOne:hover {
+  text-decoration: none;
+}
+
+#addOne:hover {
+  color: green;
+}
+
+#minusOne:hover {
+  color: red;
+}
+
+/*=============================================
+                  CAROUSEL
+=============================================*/
+
+.image-container {
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px black;
+  margin: 4rem 2rem;
+}
+
+.images {
+  background: black;
+  height: 70vh;
+  background: url("/images/bcg-0.jpg") center/cover no-repeat;
+  border-radius: 15px;
+  position: relative;
+  transition: 0.2s ease-in-out;
+}
+
+.prevBtn,
+.nextBtn {
+  background-color: orange;
+  color: black;
+  height: 50px;
+  padding: 10px;
+  font-weight: bolder;
+  outline: none;
+  transition: 0.1s;
+  border-radius: 10px;
+  box-shadow: 0px 3px 3px black;
+  border: none;
+  font-size: 1.5rem;
+  position: absolute;
+}
+
+.prevBtn:hover,
+.nextBtn:hover {
+  background-color: rgb(255, 166, 0);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.prevBtn:active,
+.nextBtn:active {
+  box-shadow: 0px 0px 5px black;
+  padding: 8px;
+  font-size: 1.3rem;
+}
+
+.prevBtn {
+  top: 50%;
+  left: 0;
+  transform: translateX(-40%);
+}
+
+.nextBtn {
+  top: 50%;
+  right: 0;
+  transform: translateX(40%);
+}
+
+/*=============================================
+                  CALCULATOR
+=============================================*/
+.calculator {
+  padding: 30px;
+  background-color: black;
+}
+
+#screen {
+  width: 100%;
+  font-size: 3rem;
+  min-height: 100px;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: rgb(43, 42, 42);
+  border-radius: 5px;
+  text-align: right;
+}
+
+.calcBtns {
+  display: flex;
+  flex-wrap: wrap;
+  transition: 0.5 linear;
+  background-color: black;
+}
+
+.calcBtn {
+  background-color: rgb(66, 66, 66);
+  font-size: 3rem;
+  height: 5rem;
+  width: 5rem;
+  flex: 0 25%;
+  transition-duration: 2s ease;
+  outline: none;
+  color: white;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.calcBtn:hover {
+  background-color: rgb(189, 189, 189);
+  color: black;
+}
+
+.calcBtn:active {
+  transform: scale(0.95);
+}
+
+.lightgrey {
+  background-color: rgb(138, 138, 138);
+}
+.lightgrey:hover {
+  background-color: rgb(105, 105, 105);
+}
+
+.operand {
+  background-color: rgb(255, 153, 0);
+}
+.operand:hover {
+  background-color: rgb(255, 181, 70);
+}
+.redBtn {
+  background-color: red;
+}
+.redBtn:hover {
+  background-color: rgb(207, 36, 36);
+}
+
+/*=============================================
+                    CLOCK
+=============================================*/
+.clock-container {
+  background: url("/images/clock.jpg") center/cover no-repeat;
+  height: 250px;
+}
+
+#clock {
+  font-family: "Orbitron", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  color: #4efc4e;
+  text-shadow: 0px 0px 10px black;
+}

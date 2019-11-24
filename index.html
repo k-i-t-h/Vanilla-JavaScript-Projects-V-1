@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <!-- GOOGLE FONT -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Orbitron&display=swap"
+      rel="stylesheet"
+    />
+    <title>Vanilla JS</title>
+  </head>
+  <body>
+    <!-- BG CHANGE -->
+    <main>
+      <div class="container">
+        <h1>RGB no hex code</h1>
+        <button type="button" class="colorBtn btn">
+          button
+        </button>
+      </div>
+      <div class="container">
+        <h1>
+          the hex code is: <br />
+          <span class="hex"></span>
+        </h1>
+        <button type="button" class="btn hexBtn">
+          button
+        </button>
+      </div>
+      <!-- QUOTES -->
+      <div class="container">
+        <h2>quotes of famous people</h2>
+        <button type="button" id="quoteBtn" class="btn">button</button>
+        <blockquote>
+          <h2 id="quote">quote</h2>
+        </blockquote>
+        <h3 id="quoteAuthor">author of the quote</h3>
+      </div>
+      <!-- INPUT MESSAGE -->
+      <div class="container">
+        <h1>enter your message</h1>
+        <textarea
+          type="text"
+          name="messageIn"
+          id="messageIn"
+          placeholder="Type message here."
+        ></textarea>
+        <button type="button" id="sendBtn" class="btn">send</button>
+        <h1>Your message:</h1>
+        <h1 id="messageOut"></h1>
+      </div>
+      <!-- Counter -->
+      <div class="container">
+        <h1>Counter</h1>
+        <div class="counter">0</div>
+        <div class="btns">
+          <button type="button" class="btn" id="minusOne">– 1</button>
+          <button type="button" class="btn" id="resetCount">reset</button>
+          <button type="button" class="btn" id="addOne">+ 1</button>
+        </div>
+      </div>
+      <!-- Carousel -->
+      <div class="image-container">
+        <div class="images">
+          <button type="button" class="prevBtn">Prev</button>
+          <button type="button" class="nextBtn">Next</button>
+        </div>
+      </div>
+      <!-- CALCULATOR -->
+      <div class="calculator container">
+        <form>
+          <input type="text" name="" id="screen" />
+        </form>
+        <div class="calcBtns">
+          <button type="button" class="calcBtn" id="numberBtn" data-num="7">
+            7
+          </button>
+          <button type="button" class="calcBtn" id="numberBtn" data-num="8">
+            8
+          </button>
+          <button type="button" class="calcBtn" id="numberBtn" data-num="9">
+            9
+          </button>
+          <button
+            type="button"
+            class="calcBtn operand"
+            id="numberBtn"
+            data-num="/"
+          >
+            /
+          </button>
+          <button type="button" class="calcBtn" id="numberBtn" data-num="4">
+            4
+          </button>
+          <button type="button" class="calcBtn" id="numberBtn" data-num="5">
+            5
+          </button>
+          <button type="button" class="calcBtn" id="numberBtn" data-num="6">
+            6
+          </button>
+          <button
+            type="button"
+            class="calcBtn operand"
+            id="numberBtn"
+            data-num="*"
+          >
+            *
+          </button>
+          <button type="button" class="calcBtn" id="numberBtn" data-num="1">
+            1
+          </button>
+          <button type="button" class="calcBtn" id="numberBtn" data-num="2">
+            2
+          </button>
+          <button type="button" class="calcBtn" id="numberBtn" data-num="3">
+            3
+          </button>
+          <button
+            type="button"
+            class="calcBtn operand"
+            id="numberBtn"
+            data-num="-"
+          >
+            -
+          </button>
+          <button type="button" class="calcBtn redBtn" id="clearBtn">
+            AC
+          </button>
+          <button type="button" class="calcBtn" id="numberBtn" data-num="0">
+            0
+          </button>
+          <button type="button" class="calcBtn lightgrey" id="equalBtn">
+            =
+          </button>
+          <button
+            type="button"
+            class="calcBtn operand"
+            id="numberBtn"
+            data-num="+"
+          >
+            +
+          </button>
+        </div>
+      </div>
+      <!-- CLOCK -->
+      <div class="container clock-container" id="clock"></div>
+    </main>
+    <script src="/script/script-1.js"></script>
+  </body>
+</html>
